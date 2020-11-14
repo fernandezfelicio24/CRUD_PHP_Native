@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 class Database{
     var $host = "localhost";
     var $username = "root";
@@ -31,6 +30,7 @@ class Database{
             $data = "Gagal tambah data";
             return $data;
         }
+        return $ex;
     }
     function delete_data($id)
     {

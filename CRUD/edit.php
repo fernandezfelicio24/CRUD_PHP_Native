@@ -19,7 +19,7 @@ else {
 </head>
 <body>
     <center>
-        <form action="proses.php?action=update" method="POST">
+        <form action="Proses/proses.php?action=update" method="POST">
         <input type="hidden" name="id" value="<?php echo $get_id['id']; ?>">
             <table border="1">
                 <tr>
